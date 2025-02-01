@@ -8,7 +8,7 @@ const fs = require('fs');
 const debug = false;
 const debug_data = [];
 
-const course_url = 'YOUR_COURSE_URL_HERE';
+const course_url = 'https://www.domestika.org/en/courses/2929-classical-portrait-drawing-the-renaissance-man-s-method/course';
 const subtitle_lang = 'en';
 //Specifiy your OS either as 'win' for Windows machines or 'mac' for MacOS/Linux machines
 const machine_os = 'YOUR_OS_HERE';
@@ -23,7 +23,7 @@ const cookies = [
 ];
 
 //Credentials needed for the access token to get the final project
-const _credentials_ = 'YOUR_CREDENTIALS_HERE';
+const _credentials_ = '76Wd8g8GoHEId0aYRwo8Qw%2BXO1ZCZiAHptwBRJhJ8pOIs22SxtH4K4qQwW1tH%2BLNpI9SUXrbTSScabaMe%2FwEAkZxdXW1wHH2AF6apBUlbEvdV3ww3scrEW7wwzWi1YPxLu%2FonIjhFmv8zYUvysRbjcYkIjf2i2ww3rF%2FYmApvoIuY4PdHXb7rK4Y1ykRB3c4AURxdi7rtuDv5gwfN2aqmPnJYvVhpjGNDHIR%2FTyttY50ws93KyyfTbWmwA%2Fq1Hlg1Vk1koH7qjfK0P9RF%2Bf5VAJa%2BdvnfWNn5DdSn9AhE3D8vr8NCSCYyUvCq%2BgI4wPgae%2FELiavp0MKucqf%2FfaBa7dadd4%2BFWyKfpwg0dUdbeeDcfTdJqXcpOiFq4CcNXJOIYrbknjWlpgC9L4s%2BNDlOrXxnU0cTrJnfKJgsqD24i5xOXH8A%2BqKtZFOSaUsb%2Btt5pFhePnnQKw%2FUAd%2FK8Zk3G620oU1SOCrMAjZw%2Fy2NyqrIok5SjaDLknYNYwhQNq6EU%2BwbXAJIUumesyzdnt8EHNOlFYquEE8bb8ceQwaP4uS9QTVK7odQCWvEGWHOOqsHzdIB%2BRr5pIWwo3biZgxEXCb055ch9ZGYVFHKcYhzwcijg73g0TpgXznsYkPAbj3zn%2BEINr%2F3uMkpt5Cq%2BMrmOhVvxR9GojzfMCHYzv516f04fcYE6BXr1EeDHukqkZ0zxJiSjLwyIbbg2an1w8M1E5QTAfgnRsAgYIA6E7C--abQvG%2F7Nj39s8LjU--yaGDWy%2BmWyNO7ExdOee1hw%3D%3D=';
 // --- END CONFIGURATION ---
 
 //Check if the N_m3u8DL-RE binary exists, throw error if not
