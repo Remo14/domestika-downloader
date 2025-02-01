@@ -8,7 +8,7 @@ const fs = require('fs');
 const debug = false;
 const debug_data = [];
 
-const course_url = 'YOUR_COURSE_URL_HERE';
+const course_url = 'https://www.domestika.org/en/courses/2929-classical-portrait-drawing-the-renaissance-man-s-method/course';
 const subtitle_lang = 'en';
 //Specifiy your OS either as 'win' for Windows machines or 'mac' for MacOS/Linux machines
 const machine_os = 'YOUR_OS_HERE';
